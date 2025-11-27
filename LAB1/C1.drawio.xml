@@ -1,0 +1,42 @@
+<mxGraphModel dx="1042" dy="562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-10" edge="1" parent="1" source="mv0M8XM4Z2Fqeda8H1g5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mv0M8XM4Z2Fqeda8H1g5-5">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-11" edge="1" parent="1" source="mv0M8XM4Z2Fqeda8H1g5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="mv0M8XM4Z2Fqeda8H1g5-6">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-12" edge="1" parent="1" source="mv0M8XM4Z2Fqeda8H1g5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mv0M8XM4Z2Fqeda8H1g5-7">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;fontStyle=1;" value="&amp;nbsp;TikTok System&lt;br&gt;&lt;br&gt;Short-form video platform" vertex="1">
+      <mxGeometry height="120" width="250" x="270" y="180" as="geometry" />
+    </mxCell>
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-8" edge="1" parent="1" source="mv0M8XM4Z2Fqeda8H1g5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mv0M8XM4Z2Fqeda8H1g5-1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="General User&lt;div&gt;Viewer &amp;amp; Content&lt;/div&gt;" vertex="1">
+      <mxGeometry height="60" width="30" x="80" y="130" as="geometry" />
+    </mxCell>
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-9" edge="1" parent="1" source="mv0M8XM4Z2Fqeda8H1g5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="mv0M8XM4Z2Fqeda8H1g5-1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Advertiser&lt;div&gt;Promotes content/products&lt;/div&gt;" vertex="1">
+      <mxGeometry height="60" width="30" x="80" y="270" as="geometry" />
+    </mxCell>
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Payment Gateway&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;App Store , Play Store&lt;/div&gt;" vertex="1">
+      <mxGeometry height="90" width="170" x="600" y="80" as="geometry" />
+    </mxCell>
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CDN&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Content Delivery Network&lt;/div&gt;" vertex="1">
+      <mxGeometry height="90" width="170" x="600" y="210" as="geometry" />
+    </mxCell>
+    <mxCell id="mv0M8XM4Z2Fqeda8H1g5-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Identity Providers&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Google , FB , Apple&lt;/div&gt;" vertex="1">
+      <mxGeometry height="90" width="170" x="600" y="350" as="geometry" />
+    </mxCell>
+    <mxCell id="prp5icsLVQVF1E9AOtbn-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;br&gt;System Context Diagram for TikTo" vertex="1">
+      <mxGeometry height="20" width="200" x="290" y="20" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

@@ -1,4 +1,39 @@
 # TikTok System
+---
+
+## ข้อมูลกลุ่ม
+กลุ่มที่: 1
+สมาชิกกลุ่ม:
+- รหัสนักศึกษา 67543210075-7 ชื่อ–สกุล นางสาวอภิรญา  สายนาคำ
+- รหัสนักศึกษา 67543210044-3 ชื่อ–สกุล นายภานุวัฒน์  ต๋าคำ
+- รหัสนักศึกษา 67543210050-0 ชื่อ–สกุล นายเอกพันธ์  ทศทิศรังสรรค์
+- รหัสนักศึกษา 67543210046-8 ชื่อ–สกุล นายศุภกิจ  รักบุตร
+
+---
+
+## ระบบที่เลือก (Target System)
+- TikTok
+- ประเภทระบบ Streaming (Video/Music) and Chat / Messaging
+- เหตุผลที่เลือกระบบนี้
+ TikTok เพราะเป็นกรณีศึกษาที่สมบูรณ์ของสถาปัตยกรรมแบบ Microservices ที่ต้องรองรับผู้ใช้งานจำนวนมหาศาล (High Concurrency) และมีการบูรณาการระบบ Video Streaming เข้ากับ AI Recommendation Engine ซึ่งช่วยให้เห็นภาพการออกแบบระบบที่มีความซับซ้อนและการจัดการข้อมูลขนาดใหญ่ได้อย่างชัดเจน
+
+
+## Actors / Users ที่เกี่ยวข้อง
+- User , Advertiser , Admin/Moderator
+## External Systems / Services
+- Identity Providers , Payment Gateways , CDN (Content Delivery Network) , Push Notification Services
+
+## คำอธิบายขอบเขตของ “TikTok”
+- Frontend: ทั้ง Mobile App (iOS/Android) และ Web Application
+
+- Backend: รวมถึง API Gateway และ Microservices ทั้งหมด (เช่น Auth, Recommendation, Video Processing)
+
+- Data Tier: ฐานข้อมูล (Database) และที่เก็บไฟล์ (Object Storage) ภายใน
+
+## ไฟล์ Drawio 
+- https://drive.google.com/file/d/1a-DD0CE41hRQ1db5KDGx2H_l-goa3dyy/view?usp=sharing
+
+---
 
 ## C1
 ![](C1.png)
@@ -70,3 +105,5 @@
 
 -----
 
+## สรุปผลการวิเคราะห์ของกลุ่ม
+จากการวิเคราะห์สถาปัตยกรรมของ TikTok พบว่าองค์ประกอบที่สำคัญที่สุดคือ Recommendation Engine และ CDN เนื่องจากเป็นหัวใจหลักในการสร้าง Engagement และส่งมอบเนื้อหาวิดีโอให้ลื่นไหลที่สุด สิ่งที่กลุ่มมองข้ามไปในตอนแรกคือ Content Moderators (ผู้ดูแลระบบ) และระบบจัดการลิขสิทธิ์เพลง ซึ่งมีความจำเป็นอย่างยิ่งต่อความปลอดภัยและกฎหมาย หากมีผู้ใช้งานเพิ่มขึ้นมหาศาล จุดที่น่าจะเป็นคอขวด (Bottleneck) คือ Video Processing Service ที่ต้องใช้ CPU สูงในการแปลงไฟล์วิดีโอ และ Database ส่วนที่จัดการ Interaction (Likes/Comments) ที่ต้องรองรับการเขียนข้อมูลปริมาณมหาศาลพร้อมกัน (High Concurrent Writes) ซึ่งต้องอาศัยการออกแบบ Caching และ Queue ที่ดีมารองรับ
